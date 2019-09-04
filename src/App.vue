@@ -6,6 +6,7 @@
       <button>test</button> -->
       <router-link to="/hello"> goto hello</router-link>
       <router-link to="/test"> goto test</router-link>
+      <!-- <router-link to="/hello"> goto children</router-link> -->
       <keep-alive include="Test">
         <router-view></router-view>
       </keep-alive>

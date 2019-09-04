@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HelloWorld from '../components/HelloWorld.vue'
 import Test from '../components/Test.vue'
+import HelloChildren from '../components/HelloChildren.vue'
 
 Vue.use(VueRouter)
 
@@ -19,6 +20,6 @@ export const routes = [
 ]
 
 export function showRouter() {
-  console.log('routes_', routes)
+  // console.log('routes_', routes)
 }
 export const router = new VueRouter({ routes })
